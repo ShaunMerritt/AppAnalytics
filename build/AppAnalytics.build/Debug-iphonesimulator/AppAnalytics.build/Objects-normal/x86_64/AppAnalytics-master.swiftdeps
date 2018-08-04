@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "dfd7a8ed82a014c58e56e562a4ce6541"
+build_time: [1533425113, 862498000]
+inputs:
+  "/Users/Shaun/Projects/src/learning/iOS/Frameworks/AppAnalytics/Source/AppAnalytics/AnalyticsManager.swift": [1533425110, 0]
+  "/Users/Shaun/Projects/src/learning/iOS/Frameworks/AppAnalytics/Source/AppAnalytics/AnalyticsEngine.swift": [1533422960, 0]
+  "/Users/Shaun/Projects/src/learning/iOS/Frameworks/AppAnalytics/Source/AppAnalytics/AnalyticsEvent.swift": [1533422938, 0]

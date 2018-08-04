@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Shaun/Library/Developer/Xcode/DerivedData/AppAnalytics-aqanxleptzcmqhdmvvyasztnzsvr/Build/Products/Debug-iphonesimulator/AppAnalytics.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AppAnalytics-Swift.h",
+          'external-contents': "/Users/Shaun/Library/Developer/Xcode/DerivedData/AppAnalytics-aqanxleptzcmqhdmvvyasztnzsvr/Build/Products/Debug-iphonesimulator/AppAnalytics.framework/Headers/AppAnalytics-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AppAnalytics.h",
+          'external-contents': "/Users/Shaun/Projects/src/learning/iOS/Frameworks/AppAnalytics/Source/AppAnalytics.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Shaun/Library/Developer/Xcode/DerivedData/AppAnalytics-aqanxleptzcmqhdmvvyasztnzsvr/Build/Products/Debug-iphonesimulator/AppAnalytics.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Shaun/Projects/src/learning/iOS/Frameworks/AppAnalytics/build/AppAnalytics.build/Debug-iphonesimulator/AppAnalytics.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

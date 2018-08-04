@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/Shaun/Library/Developer/Xcode/DerivedData/AppAnalytics-aqanxleptzcmqhdmvvyasztnzsvr/Build/Products/Debug-iphoneos/AppAnalytics.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/Shaun/Projects/src/learning/iOS/Frameworks/AppAnalytics/build/AppAnalytics.build/Debug-iphoneos/AppAnalytics.build/unextended-module.modulemap',
+    }]
+  }]
+}

@@ -1,0 +1,112 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnalyticsManager"
+provides-nominal:
+- "12AppAnalytics0B7ManagerC"
+provides-member:
+- ["12AppAnalytics0B7ManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnalyticsEngine"
+- "AnalyticsEvent"
+- "AnalyticsManager"
+- "AssignmentPrecedence"
+depends-member:
+- !private ["12AppAnalytics0B6EngineP", "sendAnalyticsEvent"]
+- !private ["12AppAnalytics0B5EventC", "metadata"]
+- !private ["12AppAnalytics0B5EventC", "name"]
+- ["12AppAnalytics0B7ManagerC", "AnalyticsEngine"]
+- ["12AppAnalytics0B7ManagerC", "AnalyticsEvent"]
+- ["12AppAnalytics0B7ManagerC", "deinit"]
+- !private ["12AppAnalytics0B7ManagerC", "engines"]
+- ["12AppAnalytics0B7ManagerC", "init"]
+- ["12AppAnalytics0B7ManagerC", "log"]
+- !private ["Sa", "map"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "metadata"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s10CollectionP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "metadata"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "metadata"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EquatableP", "metadata"]
+- !private ["s9EquatableP", "name"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s8HashableP", "metadata"]
+- !private ["s8HashableP", "name"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["So8NSObjectC", "metadata"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So16NSObjectProtocolP", "metadata"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s8SequenceP", "map"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s23_BidirectionalIndexableP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s10_IndexableP", "map"]
+- !private ["s14_IndexableBaseP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "metadata"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["s17_MutableIndexableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s22_RandomAccessIndexableP", "map"]
+- !private ["s26_RangeReplaceableIndexableP", "map"]
+depends-nominal:
+- !private "12AppAnalytics0B6EngineP"
+- !private "12AppAnalytics0B5EventC"
+- "12AppAnalytics0B7ManagerC"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s8HashableP"
+- !private "s17MutableCollectionP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Shaun/Projects/src/learning/iOS/Frameworks/AppAnalytics/Source/AppAnalytics.h"
+- "/Users/Shaun/Projects/src/learning/iOS/Frameworks/AppAnalytics/build/AppAnalytics.build/Debug-iphonesimulator/AppAnalytics.build/unextended-module.modulemap"
+interface-hash: "b2dfdfef37f525c442ade57bf1541c28"

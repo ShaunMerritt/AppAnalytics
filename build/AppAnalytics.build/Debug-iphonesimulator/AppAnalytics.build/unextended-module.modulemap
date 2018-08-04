@@ -1,0 +1,10 @@
+framework module AppAnalytics {
+  umbrella header "AppAnalytics.h"
+
+  export *
+  module * { export * }
+}
+
+module AppAnalytics.__Swift {
+    exclude header "AppAnalytics-Swift.h"
+}
