@@ -8,11 +8,13 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "AnalyticsEvent"
+- "AnalyticsMetaData"
 - "AssignmentPrecedence"
 - "NSObject"
 - "String"
 - !private "StringLiteralType"
 depends-member:
+- ["12AppAnalytics0B5EventC", "AnalyticsMetaData"]
 - ["12AppAnalytics0B5EventC", "String"]
 - ["12AppAnalytics0B5EventC", "deinit"]
 - ["12AppAnalytics0B5EventC", "init"]
@@ -42,6 +44,7 @@ depends-member:
 - !private ["s8HashableP", "metadata"]
 - !private ["s8HashableP", "name"]
 - ["s8HashableP", ""]
+- ["So8NSObjectC", "AnalyticsMetaData"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "metadata"]
@@ -104,4 +107,4 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "8aa2823ab6ad4ce22f59c9d36bed32fb"
+interface-hash: "cec005d80d78d81b304062a6b781be59"

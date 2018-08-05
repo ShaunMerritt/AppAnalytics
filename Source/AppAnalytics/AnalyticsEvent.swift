@@ -9,9 +9,9 @@ import Foundation
 public class AnalyticsEvent: NSObject {
   
   var name: String
-  var metadata: [String:String]
+  var metadata: [String:AnalyticsMetaData]
   
-  public init(name: String, metadata: [String:String] = [:]) {
+  public init(name: String, metadata: [String:AnalyticsMetaData] = [:]) {
     self.name = name
     self.metadata = metadata
   }

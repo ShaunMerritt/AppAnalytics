@@ -6,6 +6,12 @@
 
 import Foundation
 
+public enum AnalyticsMetaData {
+  case string(String)
+  case int(Int)
+}
+
 public protocol AnalyticsEngine: class {
-  func sendAnalyticsEvent(named name: String, metadata: [String : String])
+  func sendAnalyticsEvent(named name: String, metadata: [String : AnalyticsMetaData])
+  func addUserProperty(named name: String, value: AnalyticsMetaData)
 }
