@@ -1,31 +1,20 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "AnalyticsMetaData"
 - "AnalyticsEngine"
 provides-nominal:
-- "12AppAnalytics0B8MetaDataO"
 - "12AppAnalytics0B6EngineP"
 provides-member:
-- ["12AppAnalytics0B8MetaDataO", ""]
 - ["12AppAnalytics0B6EngineP", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - "AnalyticsEngine"
-- "AnalyticsMetaData"
-- "Int"
 - "String"
 depends-member:
-- ["12AppAnalytics0B6EngineP", "AnalyticsMetaData"]
 - ["12AppAnalytics0B6EngineP", "String"]
 - ["12AppAnalytics0B6EngineP", "addUserProperty"]
 - ["12AppAnalytics0B6EngineP", "sendAnalyticsEvent"]
-- ["12AppAnalytics0B8MetaDataO", "Int"]
-- ["12AppAnalytics0B8MetaDataO", "String"]
-- ["12AppAnalytics0B8MetaDataO", "int"]
-- ["12AppAnalytics0B8MetaDataO", "string"]
 depends-nominal:
 - "12AppAnalytics0B6EngineP"
-- "12AppAnalytics0B8MetaDataO"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
@@ -53,4 +42,4 @@ depends-external:
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "20309197777bbfae5518fe9475cf2136"
+interface-hash: "630f9c096bead6c0fe7d44e0a93e4b23"

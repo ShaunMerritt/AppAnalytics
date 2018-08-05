@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
         s.platform                              = :ios, "10.0"
         s.ios.deployment_target = "10.0"
         s.name                          = "AppAnalytics"
-        s.version                       = "0.0.3"
+        s.version                       = "0.0.5"
         s.summary                       = "A short description of AppAnalytics."
         s.description                   = "A long description of AppAnalytics."
         s.homepage                      = "https://github.com/ShaunOssa/AppAnalytics"
